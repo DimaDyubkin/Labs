@@ -1,4 +1,10 @@
-#include <cstdlib>
 #include <iostream>
+#include <cstdlib>
 
-void FillArray(double* array, int32_t size, bool useRandom);
+int* CreateArray(int& size);
+
+void FillArrayManual(int* arr, int size);
+
+void FillArrayRandom(int* arr, int size);
+
+void PrintArray(const int* arr, int size);
